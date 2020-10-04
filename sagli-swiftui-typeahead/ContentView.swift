@@ -46,12 +46,7 @@ struct ContentView: View {
       searchResult.append(w)
     }
   }
-  
-  var shouldShowSuggestions:Bool {
-    get {
-      return self.searchResult.count == 0 && self.$text.wrappedValue.count > 2
-    }
-  }
+ 
   var body: some View {
     
     List {
