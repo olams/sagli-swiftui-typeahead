@@ -30,49 +30,79 @@ struct TableViewCellView : View {
 struct ContentView: View {
   
   @State var text:String = ""
-
-  var resultList:[String] = [
-    "Ball", "Biler", "Biter", "Bitt" , "Binders", "Biller", "Bokser"
-    
-  ]
+  @State var suggestionResult:[String] = []
+  @State var searchResult:[String] = []
+  
+  func createSuggestionResult() {
+    suggestionResult = []
+    for s in [ "Planets", "Panic", "Plan", "Pouring", "Earth", "Evening" ] {
+      suggestionResult.append(s)
+    }
+  }
+  
+  func createSearchResult(){
+    searchResult = []
+    for w in [ "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus"] {
+      searchResult.append(w)
+    }
+  }
+  
+  var shouldShowSuggestions:Bool {
+    get {
+      return self.searchResult.count == 0 && self.$text.wrappedValue.count > 2
+    }
+  }
   var body: some View {
     
-    VStack {
+    List {
       
-      TextField("Text", text: $text)
-        .padding(20)
-        .border(Color.black)
-      
-      ZStack {
-
-        HStack {
-          
-          Text ( "One" )
-          Text ("Two")
-          Text("Four")
-          
-        }
-        
-        VStack {
-                    
-          let filteredResult = resultList.filter {
-            return $0.starts(with: $text.wrappedValue)
-          }
-          
-          if $text.wrappedValue.count > 1 {
-            
-            List (filteredResult, id:\.self) { word in
-
-              TableViewCellView(textString: word)
-              .onTapGesture() {
+      Section( header:
                 
-                print ("Tapped \(word)")
+            VStack {
+
+              TextField(
+                "",
+                text: $text
+              )
+              .padding(20)
+              .border(Color.black)
+              .onChange(of: text, perform: { value in
+                
+                if $text.wrappedValue.count == 2 {
+                  createSuggestionResult()
+                }
+                else if ($text.wrappedValue.count < 2) {
+                  self.suggestionResult = []
+                }
+              })
+              
+              HStack {
+                Text ("Action 1")
+                Text ("Action 2")
+                Text("Action 3")
               }
             }
+      ) {
+       
+        let filteredResult = suggestionResult.filter {
+          return $0.starts(with: $text.wrappedValue)
+        }
+        
+        ForEach (filteredResult, id:\.self) { word in
+
+          TableViewCellView(textString: word)
+          .onTapGesture() {
+            suggestionResult = []
+            createSearchResult()
           }
         }
+
+        
+        ForEach (searchResult, id:\.self) { w in
+          Text (w)
+        }
+
       }
-      Spacer()
     }
   }
 }
@@ -81,6 +111,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
       
-        ContentView(text: "bil", resultList: ["bil", "bilene", "biler"])
+        ContentView(text: "bil", suggestionResult: ["bil", "bilene", "biler"])
     }
 }
