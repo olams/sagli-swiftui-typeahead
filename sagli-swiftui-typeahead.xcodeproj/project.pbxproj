@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F74D1DA2529C53C00D1995F /* sagli_swiftui_typeaheadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74D1D92529C53C00D1995F /* sagli_swiftui_typeaheadApp.swift */; };
+		6F74D1DC2529C53C00D1995F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74D1DB2529C53C00D1995F /* ContentView.swift */; };
+		6F74D1DE2529C54000D1995F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F74D1DD2529C54000D1995F /* Assets.xcassets */; };
+		6F74D1E12529C54000D1995F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F74D1E02529C54000D1995F /* Preview Assets.xcassets */; };
+		6F74D1EC2529C54100D1995F /* sagli_swiftui_typeaheadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74D1EB2529C54100D1995F /* sagli_swiftui_typeaheadTests.swift */; };
+		6F74D1F72529C54100D1995F /* sagli_swiftui_typeaheadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74D1F62529C54100D1995F /* sagli_swiftui_typeaheadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F74D1E82529C54100D1995F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F74D1CE2529C53C00D1995F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F74D1D52529C53C00D1995F;
+			remoteInfo = "sagli-swiftui-typeahead";
+		};
+		6F74D1F32529C54100D1995F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F74D1CE2529C53C00D1995F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F74D1D52529C53C00D1995F;
+			remoteInfo = "sagli-swiftui-typeahead";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F74D1D62529C53C00D1995F /* sagli-swiftui-typeahead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sagli-swiftui-typeahead.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F74D1D92529C53C00D1995F /* sagli_swiftui_typeaheadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sagli_swiftui_typeaheadApp.swift; sourceTree = "<group>"; };
+		6F74D1DB2529C53C00D1995F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F74D1DD2529C54000D1995F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F74D1E02529C54000D1995F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F74D1E22529C54000D1995F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F74D1E72529C54100D1995F /* sagli-swiftui-typeaheadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sagli-swiftui-typeaheadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F74D1EB2529C54100D1995F /* sagli_swiftui_typeaheadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sagli_swiftui_typeaheadTests.swift; sourceTree = "<group>"; };
+		6F74D1ED2529C54100D1995F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F74D1F22529C54100D1995F /* sagli-swiftui-typeaheadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sagli-swiftui-typeaheadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F74D1F62529C54100D1995F /* sagli_swiftui_typeaheadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sagli_swiftui_typeaheadUITests.swift; sourceTree = "<group>"; };
+		6F74D1F82529C54100D1995F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F74D1D32529C53C00D1995F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F74D1E42529C54100D1995F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F74D1EF2529C54100D1995F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F74D1CD2529C53C00D1995F = {
+			isa = PBXGroup;
+			children = (
+				6F74D1D82529C53C00D1995F /* sagli-swiftui-typeahead */,
+				6F74D1EA2529C54100D1995F /* sagli-swiftui-typeaheadTests */,
+				6F74D1F52529C54100D1995F /* sagli-swiftui-typeaheadUITests */,
+				6F74D1D72529C53C00D1995F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F74D1D72529C53C00D1995F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F74D1D62529C53C00D1995F /* sagli-swiftui-typeahead.app */,
+				6F74D1E72529C54100D1995F /* sagli-swiftui-typeaheadTests.xctest */,
+				6F74D1F22529C54100D1995F /* sagli-swiftui-typeaheadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F74D1D82529C53C00D1995F /* sagli-swiftui-typeahead */ = {
+			isa = PBXGroup;
+			children = (
+				6F74D1D92529C53C00D1995F /* sagli_swiftui_typeaheadApp.swift */,
+				6F74D1DB2529C53C00D1995F /* ContentView.swift */,
+				6F74D1DD2529C54000D1995F /* Assets.xcassets */,
+				6F74D1E22529C54000D1995F /* Info.plist */,
+				6F74D1DF2529C54000D1995F /* Preview Content */,
+			);
+			path = "sagli-swiftui-typeahead";
+			sourceTree = "<group>";
+		};
+		6F74D1DF2529C54000D1995F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F74D1E02529C54000D1995F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F74D1EA2529C54100D1995F /* sagli-swiftui-typeaheadTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F74D1EB2529C54100D1995F /* sagli_swiftui_typeaheadTests.swift */,
+				6F74D1ED2529C54100D1995F /* Info.plist */,
+			);
+			path = "sagli-swiftui-typeaheadTests";
+			sourceTree = "<group>";
+		};
+		6F74D1F52529C54100D1995F /* sagli-swiftui-typeaheadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F74D1F62529C54100D1995F /* sagli_swiftui_typeaheadUITests.swift */,
+				6F74D1F82529C54100D1995F /* Info.plist */,
+			);
+			path = "sagli-swiftui-typeaheadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F74D1D52529C53C00D1995F /* sagli-swiftui-typeahead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F74D1FB2529C54100D1995F /* Build configuration list for PBXNativeTarget "sagli-swiftui-typeahead" */;
+			buildPhases = (
+				6F74D1D22529C53C00D1995F /* Sources */,
+				6F74D1D32529C53C00D1995F /* Frameworks */,
+				6F74D1D42529C53C00D1995F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sagli-swiftui-typeahead";
+			productName = "sagli-swiftui-typeahead";
+			productReference = 6F74D1D62529C53C00D1995F /* sagli-swiftui-typeahead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F74D1E62529C54100D1995F /* sagli-swiftui-typeaheadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F74D1FE2529C54100D1995F /* Build configuration list for PBXNativeTarget "sagli-swiftui-typeaheadTests" */;
+			buildPhases = (
+				6F74D1E32529C54100D1995F /* Sources */,
+				6F74D1E42529C54100D1995F /* Frameworks */,
+				6F74D1E52529C54100D1995F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F74D1E92529C54100D1995F /* PBXTargetDependency */,
+			);
+			name = "sagli-swiftui-typeaheadTests";
+			productName = "sagli-swiftui-typeaheadTests";
+			productReference = 6F74D1E72529C54100D1995F /* sagli-swiftui-typeaheadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F74D1F12529C54100D1995F /* sagli-swiftui-typeaheadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F74D2012529C54100D1995F /* Build configuration list for PBXNativeTarget "sagli-swiftui-typeaheadUITests" */;
+			buildPhases = (
+				6F74D1EE2529C54100D1995F /* Sources */,
+				6F74D1EF2529C54100D1995F /* Frameworks */,
+				6F74D1F02529C54100D1995F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F74D1F42529C54100D1995F /* PBXTargetDependency */,
+			);
+			name = "sagli-swiftui-typeaheadUITests";
+			productName = "sagli-swiftui-typeaheadUITests";
+			productReference = 6F74D1F22529C54100D1995F /* sagli-swiftui-typeaheadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F74D1CE2529C53C00D1995F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6F74D1D52529C53C00D1995F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					6F74D1E62529C54100D1995F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 6F74D1D52529C53C00D1995F;
+					};
+					6F74D1F12529C54100D1995F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 6F74D1D52529C53C00D1995F;
+					};
+				};
+			};
+			buildConfigurationList = 6F74D1D12529C53C00D1995F /* Build configuration list for PBXProject "sagli-swiftui-typeahead" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F74D1CD2529C53C00D1995F;
+			productRefGroup = 6F74D1D72529C53C00D1995F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F74D1D52529C53C00D1995F /* sagli-swiftui-typeahead */,
+				6F74D1E62529C54100D1995F /* sagli-swiftui-typeaheadTests */,
+				6F74D1F12529C54100D1995F /* sagli-swiftui-typeaheadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F74D1D42529C53C00D1995F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F74D1E12529C54000D1995F /* Preview Assets.xcassets in Resources */,
+				6F74D1DE2529C54000D1995F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F74D1E52529C54100D1995F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F74D1F02529C54100D1995F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F74D1D22529C53C00D1995F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F74D1DC2529C53C00D1995F /* ContentView.swift in Sources */,
+				6F74D1DA2529C53C00D1995F /* sagli_swiftui_typeaheadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F74D1E32529C54100D1995F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F74D1EC2529C54100D1995F /* sagli_swiftui_typeaheadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F74D1EE2529C54100D1995F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F74D1F72529C54100D1995F /* sagli_swiftui_typeaheadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F74D1E92529C54100D1995F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F74D1D52529C53C00D1995F /* sagli-swiftui-typeahead */;
+			targetProxy = 6F74D1E82529C54100D1995F /* PBXContainerItemProxy */;
+		};
+		6F74D1F42529C54100D1995F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F74D1D52529C53C00D1995F /* sagli-swiftui-typeahead */;
+			targetProxy = 6F74D1F32529C54100D1995F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F74D1F92529C54100D1995F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F74D1FA2529C54100D1995F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F74D1FC2529C54100D1995F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sagli-swiftui-typeahead/Preview Content\"";
+				DEVELOPMENT_TEAM = KR36LV3S5F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "sagli-swiftui-typeahead/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "no.sagli.sagli-swiftui-typeahead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F74D1FD2529C54100D1995F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sagli-swiftui-typeahead/Preview Content\"";
+				DEVELOPMENT_TEAM = KR36LV3S5F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "sagli-swiftui-typeahead/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "no.sagli.sagli-swiftui-typeahead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F74D1FF2529C54100D1995F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KR36LV3S5F;
+				INFOPLIST_FILE = "sagli-swiftui-typeaheadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "no.sagli.sagli-swiftui-typeaheadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sagli-swiftui-typeahead.app/sagli-swiftui-typeahead";
+			};
+			name = Debug;
+		};
+		6F74D2002529C54100D1995F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KR36LV3S5F;
+				INFOPLIST_FILE = "sagli-swiftui-typeaheadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "no.sagli.sagli-swiftui-typeaheadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sagli-swiftui-typeahead.app/sagli-swiftui-typeahead";
+			};
+			name = Release;
+		};
+		6F74D2022529C54100D1995F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KR36LV3S5F;
+				INFOPLIST_FILE = "sagli-swiftui-typeaheadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "no.sagli.sagli-swiftui-typeaheadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sagli-swiftui-typeahead";
+			};
+			name = Debug;
+		};
+		6F74D2032529C54100D1995F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KR36LV3S5F;
+				INFOPLIST_FILE = "sagli-swiftui-typeaheadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "no.sagli.sagli-swiftui-typeaheadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sagli-swiftui-typeahead";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F74D1D12529C53C00D1995F /* Build configuration list for PBXProject "sagli-swiftui-typeahead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F74D1F92529C54100D1995F /* Debug */,
+				6F74D1FA2529C54100D1995F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F74D1FB2529C54100D1995F /* Build configuration list for PBXNativeTarget "sagli-swiftui-typeahead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F74D1FC2529C54100D1995F /* Debug */,
+				6F74D1FD2529C54100D1995F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F74D1FE2529C54100D1995F /* Build configuration list for PBXNativeTarget "sagli-swiftui-typeaheadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F74D1FF2529C54100D1995F /* Debug */,
+				6F74D2002529C54100D1995F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F74D2012529C54100D1995F /* Build configuration list for PBXNativeTarget "sagli-swiftui-typeaheadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F74D2022529C54100D1995F /* Debug */,
+				6F74D2032529C54100D1995F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F74D1CE2529C53C00D1995F /* Project object */;
+}
